@@ -22,6 +22,11 @@ inquirer
     },
     {
         type: 'input',
+        message: 'What is the title of your project?',
+        name: 'title',
+    },
+    {
+        type: 'input',
         message: 'What is your GitHub handle?',
         name: 'github',
     }
@@ -44,10 +49,16 @@ const questions = [];
 function writeToFile(fileName, data) {
     var fileText = "";
     fileText += `${data.name}'s README\n\n`
-    fileText += `# Table of Contents\n\n`
-    fileText += `* [Questions](#questions)\n`
-    fileText += `# Questions\n`
-    fileText += `[Link to Github](https://github.com/${data.github})\n`
+    fileText += ` # ${data.title}\n\n`
+    fileText += `## Table of Contents\n\n`
+    fileText += `* [Description](#description)\n\n * [Installation](#installation)\n\n * [Usage-Information](#usage-information)\n\n * [Contribution-Guidelines](#contribution-guidelines)\n\n * [Test-Instructions](#test-instructions)\n\n * [Questions](#questions)\n\n`
+    fileText += `## Description\n\n`
+    fileText += `## Installation\n\n`
+    fileText += `## Usage Information\n\n`
+    fileText += `## Contribution Guidelines\n\n`
+    fileText += `## Test Instructions\n\n`
+    fileText += `## Questions\n\n`
+    fileText += `[Link to Github](https://github.com/${data.github})\n\n`
     fs.writeFile(fileName, fileText, (err) =>
       err ? console.error(err) : console.log("Success!")
     );
