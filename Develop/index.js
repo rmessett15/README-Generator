@@ -68,7 +68,7 @@ inquirer
     // err ? console.log(err) : console.log('Success!')
     // );
 
-    writeToFile("testReadMe.md", data);
+    writeToFile("README.md", data);
   });
 // --------------------------------------------------
 
@@ -109,5 +109,6 @@ init();
 // Look into utilizing the rest of the starter code in some way
 // Make a README.md
 // Screen record project
-// Comment and clean up code (get rid of log.txt file and ryan.json file)
+// Comment and clean up code (get rid of log.txt file, ryan.json file, & testReadMe.md file)
+// Error handling!!!!!
 // --------------------------------------------------
