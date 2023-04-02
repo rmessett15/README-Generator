@@ -18,15 +18,29 @@ Ryan Messett's README
 
 ## Description
 
+Test
+
 ## Installation
+
+Test
 
 ## Usage Information
 
+Test
+
 ## Contribution Guidelines
+
+Test
 
 ## Test Instructions
 
+Test
+
 ## Questions
 
+Have additional questions? Click the links below to reach me through my GitHub account or Email address.
+
 [Link to Github](https://github.com/rmessett15)
+
+[Link to Email](rmessett15@gmail.com)
 
