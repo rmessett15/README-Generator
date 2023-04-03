@@ -36,11 +36,15 @@ Test
 
 Test
 
+## License
+
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+
 ## Questions
 
 Have additional questions? Click the links below to reach me through my GitHub account or Email address.
 
 [Link to Github](https://github.com/rmessett15)
 
-[Link to Email](rmessett15@gmail.com)
+<a href="mailto:rmessett15@gmail.com">rmessett15@gmail.com</a>
 
