@@ -114,10 +114,10 @@ init();
 
 
 // --------------------------------------------------
-// Need to add more licensing options and rearrange them so unlicensed is last
+// Need to add more licensing options
 // Look into utilizing the rest of the starter code in some way
 // Make a README.md
 // Screen record project
-// Comment and clean up code (get rid of log.txt file, ryan.json file, & testReadMe.md file)
-// Error handling for github and email!!!!!
+// Comment and clean up code
+// Error handling for github and email?
 // --------------------------------------------------
