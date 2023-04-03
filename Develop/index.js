@@ -33,10 +33,12 @@ function generateLicense(license) {
     return `[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)`;
   } else if (license === "Apache 2.0 License") {
     return `[![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)`;
-  } else if (license === "The Unlicense") {
-    return `[![License: Unlicense](https://img.shields.io/badge/license-Unlicense-blue.svg)](http://unlicense.org/)`;
-  } else {
+  } else if (license === "IBM Public License Version 1.0") {
     return `[![License: IPL 1.0](https://img.shields.io/badge/License-IPL_1.0-blue.svg)](https://opensource.org/licenses/IPL-1.0)`;
+  } else if (license === "Mozilla Public License 2.0") {
+    return `[![License: MPL 2.0](https://img.shields.io/badge/License-MPL_2.0-brightgreen.svg)](https://opensource.org/licenses/MPL-2.0)`;
+  } else {
+    return `[![License: Unlicense](https://img.shields.io/badge/license-Unlicense-blue.svg)](http://unlicense.org/)`;
   }
 }
 
@@ -95,8 +97,9 @@ function init() {
         choices: [
           "MIT",
           "Apache 2.0 License",
-          "The Unlicense",
           "IBM Public License Version 1.0",
+          "Mozilla Public License 2.0",
+          "The Unlicense",
         ],
         name: "license",
       },
