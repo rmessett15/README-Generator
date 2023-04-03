@@ -2,19 +2,7 @@
 
 const inquirer = require('inquirer');
 
-// --------------------------------------------------
 const fs = require('fs');
-
-const name = require("./ryan.json");
-
-// process.argv[2] = response;
-
-// fs.writeFile('log.txt', process.argv[2], (err) =>
-//   err ? console.error(err) : console.log('Success!')
-// );
-
-
-// --------------------------------------------------
 
 // TODO: Create an array of questions for user input
 const questions = [];
@@ -34,7 +22,6 @@ function writeToFile(fileName, data) {
     fileText += `## License\n\n${generateLicense(data.license)}\n\n`
     fileText += `## Questions\n\nHave additional questions? Click the links below to reach me through my GitHub account or Email address.\n\n`
     fileText += `[Link to Github](https://github.com/${data.github})\n\n`
-    // Need to figure out how to create link so when user clicks link it opens up a new email with my email address already inserted as the recipient
     fileText += `<a href="mailto:${data.email}">${data.email}</a>\n\n`;
     fs.writeFile(fileName, fileText, (err) =>
       err ? console.error(err) : console.log("Success!")
@@ -115,12 +102,6 @@ function init() {
       },
     ])
     .then((data) => {
-      // const filename = `${data.name.toLowerCase().split(' ').join(' ')}.json`;
-
-      // fs.writeFile(filename, JSON.stringify(data, null, '\t'), (err) =>
-      // err ? console.log(err) : console.log('Success!')
-      // );
-
       writeToFile("README.md", data);
     });
 }
@@ -130,8 +111,7 @@ init();
 
 
 // --------------------------------------------------
-// Need to add licensing feature
-// Need to fix email link
+// Need to add more licensing options and rearrange them so unlicensed is last
 // Look into utilizing the rest of the starter code in some way
 // Make a README.md
 // Screen record project
