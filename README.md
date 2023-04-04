@@ -4,9 +4,15 @@
 
 This application was created using node.js to generate professional README.md docs from the command line, and aims to cut down on the amount of time developers are using to write their README.md files. This way more of their time can be devoted to creating, maintaining, and updating their applications. By the use of inquirer (node package manager) this application takes the user through a series of prompts, asking them their name, title of their application, application description, installation instructions, usage information, contribution guidelines, test instructions, what type of license they want their application to be covered under, as well as their GitHub handle, and primary email. Once all prompts are answered, the application generates a professional README.md markdown file with the users inputs. This was the first application I have created using a backend technology (node.js), and gave me greater insight into the way back end developers problem solve without the use of a user interface or live browser. Through building this application I learned how to import the libraries inquirer and file system into a node application, the use of prompts within the command line, template literals and arrow functions (ES6 syntax), and continued to build on all previous programming knowledge I have gained so far (for this application, mainly the utilization of conditionals statements).
 
-## Screenshot
+## Screenshots
 
-![Screenshot-week-6-challenge](https://user-images.githubusercontent.com/120127903/226476502-3a8bce9e-6816-4d7a-a7b6-10dd59a2cd8a.png)
+![Screenshot1-week-9-challenge](https://user-images.githubusercontent.com/120127903/229926082-da5e5a74-8bbb-403b-833f-7b999655b30c.png)
+
+![Screenshot2-week-9-challenge](https://user-images.githubusercontent.com/120127903/229926100-84740f01-645c-42ff-b132-a3a48b41b3a2.png)
+
+![Screenshot3-week-9-challenge](https://user-images.githubusercontent.com/120127903/229926112-20b9f9db-c7c7-4725-8726-d175fb4bf581.png)
+
+![Screenshot4-week-9-challenge](https://user-images.githubusercontent.com/120127903/229926139-f971f44c-ebee-41a2-8c1c-a0f699bc1bd9.png)
 
 ## Technologies Used
 
