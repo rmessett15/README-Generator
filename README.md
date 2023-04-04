@@ -4,6 +4,10 @@
 
 This application was created using node.js to generate professional README.md docs from the command line, and aims to cut down on the amount of time developers are using to write their README.md files. This way more of their time can be devoted to creating, maintaining, and updating their applications. By the use of inquirer (node package manager) this application takes the user through a series of prompts, asking them their name, title of their application, application description, installation instructions, usage information, contribution guidelines, test instructions, what type of license they want their application to be covered under, as well as their GitHub handle, and primary email. Once all prompts are answered, the application generates a professional README.md markdown file with the users inputs. This was the first application I have created using a backend technology (node.js), and gave me greater insight into the way back end developers problem solve without the use of a user interface or live browser. Through building this application I learned how to import the libraries inquirer and file system into a node application, the use of prompts within the command line, template literals and arrow functions (ES6 syntax), and continued to build on all previous programming knowledge I have gained so far (for this application, mainly the utilization of conditionals statements).
 
+## Live Screen Recording of Application Functionality
+
+https://drive.google.com/file/d/1-yTwG9N9cu03-j2zaN_i6khW7zMWgJ6z/view
+
 ## Screenshots
 
 ![Screenshot1-week-9-challenge](https://user-images.githubusercontent.com/120127903/229926082-da5e5a74-8bbb-403b-833f-7b999655b30c.png)
