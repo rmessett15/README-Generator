@@ -4,9 +4,6 @@ const inquirer = require("inquirer");
 // File system module (node package manager) import
 const fs = require("fs");
 
-// TODO: Create an array of questions for user input
-const questions = [];
-
 // This function writes the users README file using user input
 function writeToFile(fileName, data) {
   var fileText = "";
@@ -144,12 +141,3 @@ function init() {
 
 // Function call to initialize app
 init();
-
-// --------------------------------------------------
-// Need to mess with licensing badge placement and notice within licensing section
-// Look into utilizing the rest of the starter code in some way
-// Make a README.md
-// Screen record project
-// Comment and clean up code
-// Error handling for github and email?
-// --------------------------------------------------
