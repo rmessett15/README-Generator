@@ -2,6 +2,8 @@ Ryan Messett's README
 
  # README Generator
 
+[![License: MPL 2.0](https://img.shields.io/badge/License-MPL_2.0-brightgreen.svg)](https://opensource.org/licenses/MPL-2.0)
+
 ## Table of Contents
 
 * [Description](#description)
@@ -13,6 +15,8 @@ Ryan Messett's README
  * [Contribution-Guidelines](#contribution-guidelines)
 
  * [Test-Instructions](#test-instructions)
+
+ * [License](#license)
 
  * [Questions](#questions)
 
@@ -38,7 +42,7 @@ Test
 
 ## License
 
-[![License: MPL 2.0](https://img.shields.io/badge/License-MPL_2.0-brightgreen.svg)](https://opensource.org/licenses/MPL-2.0)
+NOTICE: This application is covered under the Mozilla Public License 2.0
 
 ## Questions
 
