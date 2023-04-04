@@ -35,11 +35,11 @@ This project is powered by Node.js v16, and utilizes the inquirer v8.2.4 (node p
 
 ## Credits
 
-Worked with a close friend of mine within the developer community to pseudo-code challenge outline (Brian Dillman). Also worked with a tutor (Robert Kurle Jr.) to finalize re-appending current city, date, and icon to the page as well as finding a way to kill my recently searched buttons multiplying themselves when clicked.
+Worked with a close friend of mine within the developer community to pseudo-code this application outline (Brian Dillman). Also met with a tutor, (Phillip Loy) to work through appending the licensing badges to the README.md document, as well as on some errors I was having with my anchor tags providing the proper link to the users email input.
 
 ## Features
 
-Features of this page include the users ability to load weather data from any city of their choosing and see real time data displayed to their page of the current conditions along with a 5 day forecast. Once a city has been searched for, the data attributed with that city will be stored in local storage and can then be re-appended to the page using the recent search buttons, which will allow data to be pulled from local storage rather than fetching from the API again (this will limit the amount of times the user will hit the API).
+Features of this application include the users ability to generate a professional README.md document straight from the command line. The user will answer a series of prompts about their application, and then a README.md markdown file will be generated based on their responses. Features within the README.md file include a licensing badge which will be appended near the top of the page based on what license the user would like their application to be covered under. As well as a table of contents which includes links to the various sections of the README.md document, that when clicked take the user to the corresponding section. Lastly their is a questions section at the bottom of the generated README.md document where links to the application authors GitHub and email are provided (when clicked, the user will be taken to the authors GitHub account, or to a blank email document where the author is automatically entered as the recipient).
 
 ## How to Contribute
 
