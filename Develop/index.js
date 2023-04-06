@@ -133,7 +133,7 @@ function init() {
         name: "email",
       },
     ])
-    // .then takes the user inputs from the prompts answered above and injects them into the writeToFile function, therefore generating a "README.md" file with the users inputs
+    // .then takes the user inputs from the prompts answered above and injects them into the writeToFile function, therefore generating a "sample-README.md" file with the users inputs
     .then((data) => {
       writeToFile("sample-README.md", data);
     });
