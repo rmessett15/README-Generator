@@ -16,7 +16,7 @@ function writeToFile(fileName, data) {
   // Table of contents
   fileText += `## Table of Contents\n\n`;
   // Links to sections within the table of contents
-  fileText += `* [Description](#description)\n\n * [Installation](#installation)\n\n * [Usage-Information](#usage-information)\n\n * [Contribution-Guidelines](#contribution-guidelines)\n\n * [Test-Instructions](#test-instructions)\n\n * [License](#license)\n\n * [Questions](#questions)\n\n`;
+  fileText += ` * [Description](#description)\n\n * [Installation](#installation)\n\n * [Usage-Information](#usage-information)\n\n * [Contribution-Guidelines](#contribution-guidelines)\n\n * [Test-Instructions](#test-instructions)\n\n * [License](#license)\n\n * [Questions](#questions)\n\n`;
   // Description section
   fileText += `## Description\n\n${data.description}\n\n`;
   // Installation section
